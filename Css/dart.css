@@ -1,0 +1,75 @@
+/* 기본 스타일 설정 */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+/* 점수판 스타일 */
+.scoreBoard {
+    position: relative;
+    width: 800px;
+    height: 800px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 5px solid black;
+    display: flex;
+    align-items: center;
+}
+
+/* 각 점수 영역의 공통 스타일 */
+.scoreBoard div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    border: 5px solid black;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    color: black;
+}
+
+/* 1점 영역 */
+#onePoint {
+    background-color: aqua;
+    width: 650px;
+    height: 650px;
+    
+}
+
+/* 2점 영역 */
+#twoPoint {
+    background-color: lightgreen;
+    width: 500px;
+    height: 500px;
+}
+
+/* 3점 영역 */
+#threePoint {
+    background-color: yellow;
+    width: 350px;
+    height: 350px;
+}
+
+/* 4점 영역 */
+#fourPoint {
+    background-color: orange;
+    width: 200px;
+    height: 200px;
+    color: black;
+}
+
+/* 5점 영역 */
+#fivePoint {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    color: white;
+}
